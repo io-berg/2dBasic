@@ -5,7 +5,7 @@ namespace TwoDe.Shaders;
 
 public class Shader : IDisposable
 {
-    private readonly int Handle;
+    public readonly int Handle;
     private bool disposedValue = false;
 
     public Shader(string vertexPath, string fragmentPath)
